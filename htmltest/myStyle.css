@@ -1,0 +1,248 @@
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;    
+}
+code {
+    margin: 10% auto;
+    background-color: #B0B0B0;
+    width: 100%;    
+}
+.package {
+    overflow: auto;
+    clear:both;
+    
+    width: 100%
+}
+.innerContainer {
+    width: 80%;
+    height: 100%;
+    background-color: #f00;
+    margin: 0px auto;
+}
+/*
+#postano-link {
+    text-decoration:none;
+    font-size:30px;
+    color:#663366;
+}
+#postano-link:hover {
+    text-decoration:none;
+    font-size:30px;
+    color:#663366;
+}
+#alert {
+    color:#663366;
+    font-size:80px;
+    
+    background-color:#666666;
+    width:100%;
+    height:100%;
+    padding-top:500px;
+    clear:both;
+    text-align:center;
+    margin: 0 auto;
+    
+}
+*/
+.image {
+	background: images/tile.png;
+}
+
+.head {
+	max-width:100px;
+}
+.centeredContent {
+background-color:#cccccc;
+
+display:block;
+width: 60%;
+height:2200px;
+margin:0 auto;
+margin-top:120px;
+padding:auto;
+border:solid 1px #333333;
+}
+.centeredContent p {
+text-align:left;
+color:#141414;
+font-size:18px;
+padding: 10px 10px 10px 10px;
+}
+.centeredContent h1 {
+border:1px solid black;
+color:#050505;
+font-size:35px;
+}
+
+
+.logoText {
+    color:white;
+	text-align:center;
+	font-size:45px;
+	padding:5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: rgba(0,0,0,0.5) -2px 0, rgba(0,0,0,0.3) 0 -2px, rgba(255,255,255,0.5) 0 2px, rgba(0,0,0,0.3) -2px -3px;
+}
+.logoText::before {
+    font-family: 'brankic1979';
+    padding-top:20px;
+    font-size:80px;
+    content:'b';
+}
+.logoText #main {
+    color:white;
+    text-decoration: none;
+}
+@font-face {
+	font-family: 'brankic1979';
+	src:url('fonts/brankic1979.eot');
+	src:url('fonts/brankic1979.eot?#iefix') format('embedded-opentype'),
+		url('fonts/brankic1979.woff') format('woff'),
+		url('fonts/brankic1979.ttf') format('truetype'),
+		url('fonts/brankic1979.svg#brankic1979') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.header {
+    z-index:1;
+    height:120px;
+    color:white;
+	position:absolute;
+    clear:both;
+	width:100%;
+	background-image:url(images/tile.png);
+	background-repeat:repeat-x;
+	background-
+	
+}
+#menuButton {
+    float:left;
+    margin:25px 25px 50px 25px;
+    width:50px;
+    height:50px;
+    border-radius:10px;
+    background-color:red;
+    font-color:black;
+
+}
+#menuButton:hover {
+    float:left;
+    margin:25px 25px 50px 25px;
+    width:50px;
+    height:50px;
+    border-radius:10px;
+    background-color:black;
+    font-color:black;
+
+}
+
+#left_bar {
+    float:left;
+    display: block;
+    border:1px black dashed;
+    background-color:#cccccc;
+    margin-top:120px;
+    width:175px;
+    height:100%;
+}
+#right_bar {
+	
+	float:right;
+    padding-top:120px;
+    clear:none;
+    border:1px black dashed;
+    background-color:#cccccc;
+    width:220px;
+    height:100%;
+}
+
+ul {
+    position:absolute;
+    list-style-type: none;
+    display:block;
+    /*display:block;*/
+    padding:0px 20px 0px 20px;
+    border:1px black solid;
+}
+
+ul li {
+    display:block;
+    text-decoration:none;
+    margin:10px 10px 10px 10px;
+    border:1px dashed white;
+    border-radius:5px;
+}
+
+ul li a {
+    text-decoration:none;
+}
+
+
+/*
+nav ul ul {
+	display: none;
+	
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 5px;
+	border-radius: 10px;  
+	list-style: none;
+	
+	display: inline-table;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+nav {
+    border:white 1px solid;
+    clear: both;
+}
+nav ul li {
+	float: left;
+}
+nav ul li:hover {
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+    display: block; padding: 25px 40px;
+	color: #757575; text-decoration: none;
+}
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	
+}
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	
+}
+nav ul ul li a {
+	padding: 15px 15px;
+	width:50px;
+	color: #fff;
+}	
+nav ul ul li a:hover {
+	background: #4b545f;
+}
+nav ul ul ul {
+	
+}*/

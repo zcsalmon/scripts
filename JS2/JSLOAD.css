@@ -1,0 +1,17 @@
+.loader {
+height:100px;
+width:100px;
+}
+
+#Stuff{
+width:100px;
+height:40px;
+border:1px solid black;
+}
+
+
+#myspans {
+height:40px;
+width:500px;
+border:1px solid black;
+}

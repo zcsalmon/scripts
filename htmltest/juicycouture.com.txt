@@ -1,0 +1,4 @@
+juicycouture.com=true
+juicycouture.com.startHint=
+juicycouture.com.endHint=<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled">
+juicycouture.com.suppressTag=div,menu,class;div,socialicons,class;div,logo,id;div,entry-top%20row,class;span,nav-previous,class;span,nav-next,class;h1,entry-title,class;p,entry-meta,class;ul,menu-top-no-categories,id;div,nav-above,class;div,logo,id

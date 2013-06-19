@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pood</title>
+       
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="JSLOAD.css">
+        <script type="text/javascript">
+        var div = document.getElementByID('div');
+        var jsons = document.getElementByID("Filler");
+        div.innerHTML = div.innerHTML + jsons.innerHTML;
+        function myFunc() {
+            div.innerHTML = div.innerHTML + jsons.innerHTML;
+        }
+        
+        
+        //jsons.innerHTML = document.getElementByID("loader")
+        
+        
+        </script>
+        
+        
+        <button id="stuff" onclick="myFunc()">click me</button>
+    <iframe id="loader" src="DOM.json" height=560px width=560px>
+        
+    </iframe>
+    <span id="myspans">
+        <span id="myspans">This</span>
+        <span id="myspans">Is</span>
+        <span id="myspans">My</span>
+        <span id="myspans">Span!</span>
+    </span>
+    <code>thisiscode</code>
+    <div id="Filler" style="background-color:red; height:100px;width:100px;">Div stuff...</div>
+    
+    </body>
+</html>
+<!--<div id="Stuff">1</div>
+<div id="Stuff">2</div>
+<div id="Stuff">3</div>
+<div id="Stuff">4</div>-->

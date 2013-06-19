@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title></head>
+<body>
+        <style>
+            div{display:inline;}
+            #sd1 {background-color:red;height:100px;width:100px;display:inline-block;}
+            #sd2 {background-color:green;height:100px;width:100px;display:inline-block;}
+            #sd3 {background-color:blue;height:100px;width:100px;display:inline-block;}
+            #sd4 {background-color:purple;height:100px;width:100px;display:inline-block;}
+            button{background-color:red;margin:90px;padding:20px;}
+            span {display:block;}
+        </style>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script type="text/javascript">
+            /*
+            
+            
+            window.onload(function(){  
+                $("#result")  
+            });
+            $( document ).ready(function() {
+                $( "a" ).click(function( event ) {
+                    alert( "Thanks for visiting!" );
+                });
+            });*/
+            var pad_no
+            var ajax_load = "<div style='padding:" + pad_no +"px;border:solid 1px black;'>Loading...</div>"
+            var loadUrl = "http://www.postano.com/php/peposts.php?sid=63277";
+            $( document ).ready(function() {
+                $( "a" ).click(function( event ) {
+                    alert( "The link will no longer take you to jquery.com" );
+                    event.preventDefault();
+                });
+                /*
+                $( "div" ).click(function( event ){
+                    event.preventDefault();
+                    $( this ).hide( "slow" );
+                });
+                */
+                $.ajaxSetup ({  
+                                cache: false  
+                            });
+                $( "button" ).click(function(){
+                    pad_no = prompt("howmuch");                    
+                });
+                $
+            });
+            
+            
+        </script>
+        
+        <div id=":parent">
+        <div id="sd1"><a href="#">sd1</a></div>
+        
+        <div id="sd2">ss</div>
+        <div id="sd3">sd3</div>
+        <div id="sd4">sd4</div>
+        <div id="result"></div>
+        <br>
+        <br>
+        <br>
+        <div id="here">ss</div>
+        </div>
+        <button id="button"></button>
+        
+</body>
+</html>

@@ -1,0 +1,4 @@
+juicycouture.tumblr.com=true
+juicycouture.tumblr.com.startHint=
+juicycouture.tumblr.com.endHint=
+juicycouture.tumblr.com.suppressTag=div,container,id;ul,nav,id;div,meta,class;

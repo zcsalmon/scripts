@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codez 'n' Oatz</title>
+    </head>
+    <body>
+        <LINK REL="stylesheet" HREF="myStyle.css" TYPE="text/css">
+        <p>
+        Python Notes:
+        </p>
+        <p>
+        to include an external module, the module ${something}.py must be in the same path.
+        </p>
+        <code>
+        <p>
+</p>        import ${something}<p>
+</p><p>
+</p>        obj = ${something}.Class()<p>
+</p>        #######################################<p>
+</p>        <p>
+</p>        #when loading in json data, sometimes it's nice to load, then re-format the data to get rules. EG.<p>
+</p>        import urllib2, json<p>
+</p>        json_url = urllib.urlopen('http://www.test.json/')<p>
+</p>        json_data = json_url.read()<p>
+</p>        malformed_data = json.loads(json_data)<p>
+</p>        format_data = json.dumps(malformed_data, sort_keys=True, indent=4, separators=(',',': '))
+        </code>
+    </body>
+</html>
